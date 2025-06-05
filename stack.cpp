@@ -102,7 +102,9 @@ int main()
       cin >> value;
       stack.push(value);  //Push the enterd from the 
       break;
-      case 2;
+      case 2:
+      stack.pop();  //Pop the top elemnt from the
+      break;
     }
   }
 }
