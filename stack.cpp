@@ -42,7 +42,12 @@ return value;
 
   void pop()
   {
-    
+    Node *temp = top;
+    if (isEmpty())
+    {
+      cout << "Stack is empety." << endl;
+      return;
+    }
   }
   
 }
