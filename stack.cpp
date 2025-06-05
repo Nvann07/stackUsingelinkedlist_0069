@@ -69,8 +69,14 @@ return value;
         cout << current->data << " " << endl;
         current = current->next;
       }
+      cout << endl;
     }
     }
-  }
+
+    bool isEmpty()
+    {
+      return top == NULL; // Return true if the top pointer 
+    }
+  };
   
-}
+int main()
