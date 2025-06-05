@@ -48,6 +48,12 @@ return value;
       cout << "Stack is empety." << endl;
       return;
     }
+
+    cout << "Popped value: " << temp->data << endl;
+    top = temp->next; // Update the top pointer to the 
+    delete temp;
   }
+
+  //Peek 
   
 }
