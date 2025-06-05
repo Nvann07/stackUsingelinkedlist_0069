@@ -113,7 +113,8 @@ int main()
       cout << "Exiting program." << endl;
       break;
       default:
-      cout 
+      cout << "Invalid choice. Try again." << endl;
+      breka 
     }
   }
 }
