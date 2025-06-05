@@ -80,3 +80,9 @@ return value;
   };
   
 int main()
+{
+  Stack stack;
+
+  int choice = o;
+  int value;
+}
