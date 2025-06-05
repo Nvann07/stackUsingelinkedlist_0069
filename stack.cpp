@@ -33,7 +33,16 @@ class Stack
   int push(int value)
   {
 Node *newNode = new Node(); // 1. Alocate memory fo
-newNode->data = value;      // 1. assigne value 
+newNode->data = value;      //2. assigne value
+newNode->next = top;         // 3. Set the next pointer 
+top = newNode;               // 4.Update the top 
+cout << "Push value: " << value << endl;
+return value; 
+  }
+
+  void pop()
+  {
+    
   }
   
 }
