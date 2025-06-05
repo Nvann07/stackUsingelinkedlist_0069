@@ -9,7 +9,7 @@ class Node
 {
   public:
   int data;
-  Node * nect;
+  Node * next;
 
   Node()
   {
@@ -32,7 +32,8 @@ class Stack
   //Push operation: Insert an element onto the top of the 
   int push(int value)
   {
-    
+Node *newNode = new Node(); // 1. Alocate memory fo
+newNode->data = value;      // 1. assigne value 
   }
   
 }
