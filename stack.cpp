@@ -54,6 +54,13 @@ return value;
     delete temp;
   }
 
-  //Peek 
+  //Peek/Top operation: Retrive the value of the topmost
+  void peak()
+  {
+    if (isEmpty())
+    {
+      cout << "List is empty "
+    }
+  }
   
 }
